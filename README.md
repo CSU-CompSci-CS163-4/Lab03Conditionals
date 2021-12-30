@@ -1,13 +1,9 @@
----
-Summary: Warmup lab focusing on Conditionals and Strings
-TimeExpected: 20 minutes
----
 # Lab 03 - Conditionals
 
-Today's lab will focus on conditionals, or 'if', 'else if', and 'else' statements, while also reviewing Strings. 
+Today's lab will focus on conditionals, or `if`, `else if`, and `else` statements, while also reviewing `Strings`. 
 
 ## Step 1: Compiling 
-Take a moment to look through the provided code for the lab. If you end up running the code at this moment, you will find there is a **Syntax Error* and the code won't compile. (hint: The syntax error is the method that has the 'Step 1' comment).
+Take a moment to look through the provided code for the lab. If you end up running the code at this moment, you will find there is a *Syntax Error* and the code won't compile. (hint: The syntax error is the method that has the 'Step 1' comment).
 
 Fix this syntax error now. While there are many ways to fix it, we suggest simply putting in a `return "";` at the bottom of the method for now. Compile / run the code. 
 
