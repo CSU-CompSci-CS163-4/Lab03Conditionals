@@ -11,12 +11,13 @@ Fix this syntax error now. While there are many ways to fix it, we suggest simpl
 Reading through the `laneCheck(int)` method, you should write out *in your own words* what you think the code does. What happens when certain parameters are passed into the method? How does it respond? Write directly in your code as a comment above the method. It is alright to talk it out, but know it is not important that you get it correct! It is more important that you write out what you think. 
 
 ## Step 3: Runtime Errors
-It is possible to have your code run, and it not run correct. Take a moment to open the [javadoc](http://www.cs.colostate.edu/~cs163/javadoc/lab03/ConditionalsLab.html), and review the `laneCheck(int)` method. The javadoc provides a description of the method, including given a certain input, you should have a specific output. Using that method **description**, ask yourself the following questions:
+It is possible to have your code run, and it not run correct. Take a moment to open the [javadoc](http://www.cs.colostate.edu/~cs163/javadoc/lab03/ConditionalsLab.html), and review the `laneCheck(int)` method. The javadoc provides a description of the method, including given a certain input, you should have a specific output. Using that method **description** and the **diagram below**, ask yourself the following questions:
 
 1. How well does it match your self-explanation of the method?
 2. Does the code do what is described in the javadoc? If so, you are good, if not - write notes about what it isn't doing right (you can add them as comments to the file)
 3. Look at the code, does it match the following diagram of how the if statements should be working?
 
+![laneCheck()](https://user-images.githubusercontent.com/77072076/147795308-5d5c2089-d6c0-4bf5-b0ba-fc988f711caa.png)
 
 Now take a moment to run the code. You will notice the `main` method is calling a test method `testLaneCheck()`. It is *very common* (required in industry) to test every method you write! This lab mimics that idea, and we have tests for every method. When you run the program, you will find the tests aren't doing what you it should be doing!
 
