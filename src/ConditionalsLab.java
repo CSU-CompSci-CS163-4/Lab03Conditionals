@@ -1,4 +1,3 @@
-
 public class ConditionalsLab  {
 
 
@@ -10,12 +9,13 @@ public class ConditionalsLab  {
         if (value < 50) {
             return "Slow Lane";
         }
+        if(value > 100) {
+            return "Jail Lane";
+        }
         if(value > 50) {
             return "Fast Lane";
         }
-        if(value > 100) {
-            return "Jail Lane";
-        } 
+
     }
     
     private static void testLaneCheck() {
@@ -95,7 +95,7 @@ public class ConditionalsLab  {
     }
 
     // STEP 5
-    public static void testStreeLight2AB(){
+    public static void testStreetLight2AB(){
         System.out.println("Testing streetLight2A");
 
 
@@ -134,7 +134,7 @@ public class ConditionalsLab  {
     public static void main(String[] args) {
         testStreetLight1();
         testLaneCheck();
-        testStreeLgith2AB();
+        testStreetLight2AB();
     }
 
 }
