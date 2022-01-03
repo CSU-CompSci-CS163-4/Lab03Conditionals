@@ -17,7 +17,7 @@ It is possible to have your code run, and it not run correct. Take a moment to o
 2. Does the code do what is described in the javadoc? If so, you are good, if not - write notes about what it isn't doing right (you can add them as comments to the file)
 3. Look at the code, does it match the following diagram of how the if statements should be working?
 
-![laneCheck()](https://user-images.githubusercontent.com/77072076/147795308-5d5c2089-d6c0-4bf5-b0ba-fc988f711caa.png)
+![laneCheck()](https://user-images.githubusercontent.com/77072076/147894580-884ddeb0-f957-4387-9437-2c88a8353b9b.png)
 
 Now take a moment to run the code. You will notice the `main` method is calling a test method `testLaneCheck()`. It is *very common* (required in industry) to test every method you write! This lab mimics that idea, and we have tests for every method. When you run the program, you will find the tests aren't doing what you it should be doing!
 
