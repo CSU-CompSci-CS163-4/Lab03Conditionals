@@ -19,12 +19,12 @@ It is possible to have your code run, and it not run correct. Take a moment to o
 
 ![laneCheck()](https://user-images.githubusercontent.com/77072076/147894580-884ddeb0-f957-4387-9437-2c88a8353b9b.png)
 
-Now take a moment to run the code. You will notice the `main` method is calling a test method `testLaneCheck()`. It is *very common* (required in industry) to test every method you write! This lab mimics that idea, and we have tests for every method. When you run the program, you will find the tests aren't doing what you it should be doing!
+Now take a moment to run the code. You will notice the `main` method is calling a test method `testLaneCheck()`. It is *very common* (required in industry) to test every method you write! This lab mimics that idea, and we have tests for every method. When you run the program, you will find the tests aren't doing what they should be doing!
 
-**Your action** Fix the method so it passes the tests and matches what is described in the javadoc. 
+**Your action:** Fix the method so it passes the tests and matches what is described in the javadoc. 
 
 ## Step 4: Working with Strings
-Look at `streatLight1()`. When you ran the tests in Step3, you will have noticed that this method is also failing tests! However, the return types seem correct. Take a moment to look through this method, and work on the following:
+Look at `streetLight1()`. When you ran the tests in Step3, you will have noticed that this method is also failing tests! However, the return types seem correct. Take a moment to look through this method, and work on the following:
 
 1. Create a diagram similar to the example in Step 3. 
 2. Fix this method so that it works. 
@@ -44,7 +44,7 @@ Now, change the `.equalsIgnoreCase()` in `streetLight2B(String)` to `.contains()
 ## Step 6: Turning In / Receiving Credit
 
 To recieve credit for this lab you need to do the following:
-1. In Zybook, submit the lab for grading (after clicking through the canvas link again!).
+1. In Zybooks, submit the lab for grading (after clicking through the canvas link again!).
 
 2. On-campus students, have a TA look over that you completed the self-explanations, your diagrams, and the tests you created (we are not autograding those). Just show what you completed at the end of the course period, even if it isn't fully complete.
 
