@@ -2,7 +2,7 @@ public class ConditionalsLab  {
 
 
     // Step 1, 2, 3
-    /* write self-explanation here
+    /* Write self-explanation here
     * 
     */
     public static String laneCheck(int value) {
