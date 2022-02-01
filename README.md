@@ -21,7 +21,7 @@ It is possible to have your code run, and it not run correctly. Take a moment to
 
 Now take a moment to run the code. You will notice the `main` method is calling a test method `testLaneCheck()`. It is *very common* (required in industry) to test every method you write! This lab mimics that idea, and we have tests for every method. When you run the program, you will find the tests aren't doing what they should be doing!
 
-**Your action:** Fix the method so it passes the tests and matches what is described in the javadoc. 
+**Your action:** Fix the laneCheck() method so it passes the tests and matches what is described in the javadoc. 
 
 ## Step 4: Working with Strings
 Look at `streetLight1()`. When you ran the tests in Step3, you will have noticed that this method is also failing tests! However, the return types seem correct. Take a moment to look through this method, and work on the following:
