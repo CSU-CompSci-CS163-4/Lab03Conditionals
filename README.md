@@ -5,7 +5,7 @@ Today's lab will focus on conditionals, or `if`, `else if`, and `else` statement
 ## Step 1: Compiling 
 Take a moment to look through the provided code for the lab. If you end up running the code at this moment, you will find there is a *Syntax Error* and the code won't compile. (hint: The syntax error is the method that has the 'Step 1' comment).
 
-Fix this syntax error now. While there are many ways to fix it, we suggest simply putting in a `return "";` at the bottom of the method for now. Compile / run the code. 
+Fix this syntax error now. While there are many ways to fix it, we suggest simply putting in a `return "";` at the bottom of the method for now. Compile/run the code. 
 
 ## Step 2: Self-Explanation
 Reading through the `laneCheck(int)` method, you should write out *in your own words* what you think the code does. What happens when certain parameters are passed into the method? How does it respond? Write directly in your code as a comment above the method. It is alright to talk it out, but know it is not important that you get it correct! It is more important that you write out what you think. 
@@ -19,7 +19,7 @@ It is possible to have your code run, and it not run correctly. Take a moment to
 
 ![laneCheck()](https://user-images.githubusercontent.com/77072076/147894580-884ddeb0-f957-4387-9437-2c88a8353b9b.png)
 
-Now take a moment to run the code. You will notice the `main` method is calling a test method `testLaneCheck()`. It is *very common* (required in industry) to test every method you write! This lab mimics that idea, and we have tests for every method. When you run the program, you will find the tests aren't doing what they should be doing!
+Now take a moment to run the code. You will notice the `main` method is calling a test method `testLaneCheck()`. It is *very common* (required in the industry) to test every method you write! This lab mimics that idea, and we have tests for every method. When you run the program, you will find the tests aren't doing what they should be doing!
 
 **Your action:** Fix the laneCheck() method so it passes the tests and matches what is described in the javadoc. 
 
@@ -32,23 +32,25 @@ Look at `streetLight1()`. When you ran the tests in Step3, you will have noticed
 
 
 ## Step 5: Tree Diagrams and Testing
-Creating Tree Diagrams are extremely helpful in working out your logic, and while the logic for these problems are 'simple', as your logic gets more complex, you will thank yourself for creating it. Create a tree diagram for `streetLight2A(String)` and `streetLight2B(String)`.
+Creating Tree Diagrams is extremely helpful in working out your logic, and while the logic for these problems is 'simple', as your logic gets more complex, you will thank yourself for creating it. Create a tree diagram for `streetLight2A(String)` and `streetLight2B(String)`.
 
 Compare the diagrams, are they functionally the same or different? 
 
-Look at `testStreeLight2AB()`. Looking at the *tree diagram* write tests that test every 'path' of that tree. Similar to the tests for the past two methods, but you should ask yourself if you tested every condition of `streetLight2A(String)` and `streetLight2B(String)`.
+Look at `testStreeLight2AB()`. Looking at the *tree diagram* write tests that test every 'path' of that tree. Similar to the tests for the past two methods, you should ask yourself if you tested every condition of `streetLight2A(String)` and `streetLight2B(String)`.
 
-Now, change the `.equalsIgnoreCase()` in `streetLight2B(String)` to `.contains()`. How did this change the tests you wrote? Why did some of them end up failing (if any). Can you write a test that causes a failing condition?
+Now, change the `.equalsIgnoreCase()` in `streetLight2B(String)` to `.contains()`. How did this change the tests you wrote? Why did some of them end up failing (if any)? Can you write a test that causes a failing condition?
 
 
 ## Step 6: Turning In / Receiving Credit
 
-To recieve credit for this lab you need to do the following:
+To receive credit for this lab you need to do the following:
 1. In Zybooks, submit the lab for grading (after clicking through the canvas link again!).
 
 2. On-campus students, have a TA look over that you completed the self-explanations, your diagrams, and the tests you created (we are not autograding those). Just show what you completed at the end of the course period, even if it isn't fully complete.
 
 3. Online students, there will be a discussion assignment in canvas. Copy your self-explanations, your diagrams, and your tests you created as part of the discussion post. A TA will review your submission. 
+ 
+4. Summer students, you will not be asked to submit self-explanations, diagrams, or tests but we do highly recommend that you do all three as they're beneficial to your understanding of the code.  
 
 
 ## Step 7: Extra Practice (optional) 
@@ -60,7 +62,7 @@ Look at `streetLight3(String)`. Create a tree diagram for it, along with additio
 
 
 ## Additional Background Information
-Read through the following if you are stuck, or simply seek better understanding of if/else statements. 
+Read through the following if you are stuck, or simply seek a better understanding of if/else statements. 
 
 
 The `if` statement checks if a certain statement is true. It can look like:
@@ -133,11 +135,11 @@ If we have a square, our print statement will be
 ```This is a square.```
 
 The `else` is a last resort, it is supposed to catch all cases outside
-what is being checked. Neglecting it can possibly result in a logic error. Putting one else after several 'if's and not 'else ifs' can also result in error.
+what is being checked. Neglecting it can possibly result in a logic error. Putting one else after several 'if's and not 'else ifs' can also result in an error.
 
-Debugging and coming up with good test cases is very useful for finding
+Debugging and coming up with good test cases are very useful for finding
 pesky bugs in logic. This may be helpful in the first parts of your assignment.
-For example, what if we go outside of red, yellow, green and input a color like purple? How does each method handle this?
+For example, what if we go outside of red, yellow, or green and input a color like purple? How does each method handle this?
 
 ### .equalsIgnoreCase() and .contains()
 
