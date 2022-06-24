@@ -11,7 +11,7 @@ Fix this syntax error now. While there are many ways to fix it, we suggest simpl
 Reading through the `laneCheck(int)` method, you should write out *in your own words* what you think the code does. What happens when certain parameters are passed into the method? How does it respond? Write directly in your code as a comment above the method. It is alright to talk it out, but know it is not important that you get it correct! It is more important that you write out what you think. 
 
 ## Step 3: Runtime Errors
-It is possible to have your code run, and it not run correctly. Take a moment to open the [javadoc](http://www.cs.colostate.edu/~cs163/javadoc/lab03/ConditionalsLab.html), and review the `laneCheck(int)` method. The javadoc provides a description of the method, including given a certain input, you should have a specific output. Using that method **description** and the **diagram below**, ask yourself the following questions:
+It is possible to have your code run, and it not run correctly. Take a moment to open the [javadoc](https://csu-compsci-cs163-4.github.io/Lab03Conditionals/ConditionalsLab.html), and review the `laneCheck(int)` method. The javadoc provides a description of the method, including given a certain input, you should have a specific output. Using that method **description** and the **diagram below**, ask yourself the following questions:
 
 1. How well does it match your self-explanation of the method?
 2. Does the code do what is described in the javadoc? If so, you are good, if not - write notes about what it isn't doing right (you can add them as comments to the file)
