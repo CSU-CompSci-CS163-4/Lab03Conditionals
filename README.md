@@ -48,9 +48,7 @@ To receive credit for this lab you need to do the following:
 
 2. On-campus students, have a TA look over that you completed the self-explanations, your diagrams, and the tests you created (we are not autograding those). Just show what you completed at the end of the course period, even if it isn't fully complete.
 
-3. Online students, there will be a discussion assignment in canvas. Copy your self-explanations, your diagrams, and your tests you created as part of the discussion post. A TA will review your submission. 
- 
-4. Summer students, you will not be asked to submit self-explanations, diagrams, or tests but we do highly recommend that you do all three as they're beneficial to your understanding of the code.  
+3. Online students, you will not be asked to submit self-explanations, diagrams, or tests but we do highly recommend that you do all three as they're beneficial to your understanding of the code.  
 
 
 ## Step 7: Extra Practice (optional) 
