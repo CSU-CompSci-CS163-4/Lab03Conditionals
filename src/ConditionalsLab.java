@@ -26,7 +26,7 @@ public class ConditionalsLab  {
         String test4 = laneCheck(60);
         System.out.printf("Test 1 should return Slow Lane: Returned: %s%n", test1);
         System.out.printf("Test 2 should return Slow Lane: Returned: %s%n", test2);
-        System.out.printf("Test 3 should return Jail Time: Returned: %s%n", test3);
+        System.out.printf("Test 3 should return Jail Lane: Returned: %s%n", test3);
         System.out.printf("Test 4 should return Fast Lane: Returned: %s%n", test4);
         System.out.println();
     }
